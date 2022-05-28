@@ -7,4 +7,4 @@ su:
 pull:
 	git pull origin master
 spin:
-	sudo systemctl restart gunicorn && sudo systemctl restart nginx
+	sudo systemctl restart finlay && sudo systemctl restart nginx
